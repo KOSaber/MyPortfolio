@@ -1,0 +1,168 @@
+* {
+    /* background-color: rgb(186, 217, 235); */
+}
+
+.bigcontainer{
+    display: flex;
+    flex-direction: row;
+    }
+   
+    #container{
+        display: flex;
+        align-self: flex-end;
+        width: 100%;
+        flex-direction: column;
+        padding: 5px;
+        margin: 10px;
+        border: 5px solid;
+        border-radius: 15px;
+        border-color: rgb(74, 104, 124) ;
+        background-color: rgba(191, 217, 231,0.3);
+        
+    }
+    #personalphoto{
+        border-radius: 15px;
+        padding: 1px;
+        margin: 10px;
+        border: 5px solid;
+        border-color: rgb(74, 104, 124);
+    }
+    #navcont{
+    	display: flex;
+    	justify-content: center;
+        width: 100%;
+    }
+    .photocontainer{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .photocontainer > img {
+      width: 150px;
+      height: 150px;
+      justify-self: center;
+      justify-content: space-around; 
+      padding: 10px;
+    }
+    .flex-container{
+    display: flex;
+    justify-content: flex-end;
+    }
+    .flex-container > div {
+      padding: 10px;
+      width: 400px;
+      height: 200px;
+      justify-content: flex-end;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-around;
+      margin: 40px 8px;
+    }
+    a{
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight:600;
+        margin: 0px 20px;
+        border-bottom: 2px solid transparent;
+        color: rgb(20, 33, 66);
+        text-decoration: none;
+        background-color: rgba(253, 255, 254, 0);
+        }
+    a:hover{
+            border-color: rgb(178, 193, 197);
+        }
+    h1{
+        font-family: sans-serif;
+        font-style: bold;
+        font-weight:600;
+        color: #0d2c40;
+        margin-left: 30%;
+        
+        }
+    p{
+    font-family: "Raleway";
+    text-align: center;
+    }
+    button{
+        margin: 16px;
+        border-radius: 25px;
+    	background-color: rgba(128, 137, 141, 0.1);
+    }
+    blockquote {
+    font-family: "Droid Serif", serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    margin: 0px !important;
+    }
+    header{
+        background-color: #f1f1f1d7;
+        color: #ffffff;
+    }
+  
+    main{
+        width: 99%;
+        margin: 0px .5%;
+        margin-bottom: 10px;
+        background-color: rgba(191, 217, 231,0.3);
+        border-radius: 3px;
+    }
+    #footer .message span {
+        
+        font-weight: 700;
+        color: red;
+        background-color: rgb(74, 104, 124);
+    }
+    footer{
+        text-transform:capitalize;
+        padding: 0 20px;
+        background-color: rgb(74, 104, 124);
+        color: white;
+        font-size: 14px;
+        letter-spacing: .08em;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    
+    footer> div,p{
+        background-color: rgb(74, 104, 124);
+    }
+    .copyright{
+    font-family: "Raleway";
+    text-align: right;
+    background-color:rgb(74, 104, 124) ;
+    align-self: flex-end;
+    }
+    .message{
+    font-family: "Raleway";
+    text-align: left;
+    background-color: rgb(74, 104, 124);
+    align-self: flex-start;
+    }
+
+    #contact{
+        font-family: "Raleway";
+        text-align: center;
+        background-color: rgb(74, 104, 124);
+        width: 98%;
+    }
+    #contact>p{
+        background-color: rgb(74, 104, 124);    
+    }
+
+    #footer{
+
+    	display: flex;
+    	width: 98%;
+    	justify-content: space-between;
+
+    }
+    img{
+        background-color: rgba(212, 240, 243, 0.68);
+        border-radius: 10px;
+    }
+    #linkedin{
+        color: white;
+        background-color: rgb(74, 104, 124);
+    }
+ 
